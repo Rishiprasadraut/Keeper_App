@@ -32,9 +32,10 @@ The project is fully component-based, modular, and easy to scale.
 ```
 src/
  ├── components/
- │     ├── Note.jsx
- │     ├── NoteForm.jsx
- │     ├── NoteList.jsx
+ │     ├── Card.jsx
+ │     ├── Footer.jsx
+ │     ├── Header.jsx
+ │     └── Note.jsx
  │     └── NoteCard.jsx
  ├── App.jsx
  └── main.jsx
