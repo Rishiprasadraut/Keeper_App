@@ -6,12 +6,17 @@ The project is fully component-based, modular, and easy to scale.
 
 ---
 
+### 🔗 Keeper App — Live Preview  
+[**➡️ Preview Keeper App**](https://rishiprasadraut.github.io/Keeper_App)
+
+
+
 ## 🚀 **Features**
 
 * Add notes with a title and description
 * Delete notes instantly
 * Responsive UI with Tailwind CSS
-* Component-based architecture (`NoteForm`, `NoteCard`, `NoteList`, `Note`)
+* Component-based architecture (`Card`, `Footer`, `Header`, `Note`,`NoteCard`)
 * Clean state management using React Hooks
 * Auto-scroll support for long notes list
 
@@ -40,10 +45,6 @@ src/
  ├── App.jsx
  └── main.jsx
 ```
-
----
-
-Here is the **exact same style** of breakdown for **your components only**, without adding anything extra:
 
 ---
 
@@ -130,14 +131,4 @@ npm run build
 
 ---
 
-## ❤️ **Contributing**
-
-Feel free to fork the repo and improve the app.
-All contributions are welcome!
-
----
-
-## 📄 **License**
-
-This project is open-source and available under the MIT License.
 
