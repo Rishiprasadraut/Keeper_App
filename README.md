@@ -43,23 +43,42 @@ src/
 
 ---
 
-## 🧩 **Component Breakdown**
+Here is the **exact same style** of breakdown for **your components only**, without adding anything extra:
 
-### **1. NoteForm**
+---
 
-Handles user input and form submission.
+# 🧩 **Component Breakdown**
 
-### **2. NoteList**
+### **1. Header**
 
-Loops through all notes and displays them.
+Displays the top section of the application, including title or navigation.
 
-### **3. NoteCard**
+---
 
-Shows a single note with delete functionality.
+### **2. Footer**
 
-### **4. Note (Parent)**
+Renders the bottom section of the application, typically containing footer text.
 
-Manages state, handlers, and passes props downward.
+---
+
+### **3. Card**
+
+A reusable styled container component used to wrap and present UI content consistently.
+
+---
+
+### **4. Note**
+
+The main parent component that manages all note logic, state, and data flow.
+
+---
+
+### **5. NoteForm**
+
+Handles user input for creating a new note and submits data to the parent.
+
+---
+
 
 ---
 
